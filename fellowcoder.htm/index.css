@@ -1,0 +1,199 @@
+
+        body
+        {
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         background-color:  #f1f1f1;
+        }
+        
+        .header{
+           
+           background-image: url(238.jpg);   
+        }
+        nav{
+            width: 100%;
+            height: 20px;
+            text-align: center;
+        }
+        nav a{
+            
+            float: centre;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 60px;
+            color: rgb(90, 53, 53);
+            
+        } 
+        nav a:hover{
+            color: rgba(165, 48, 175, 0.5);
+        }
+        .header h6{
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            padding: 0;
+            font-style: oblique;
+            font-size: 50px;
+        }
+        .topnav {   
+            display: inline;
+            background-color:  rgb(17, 124, 143);
+            padding: 10px;
+            width: 100%;
+            margin 40px;
+            overflow: hidden;
+        }
+        .topnav a {
+            margin-top: 50px;
+            text-decoration: none;
+            background-color: rgb(17, 124, 143);
+            color: white;
+            padding: 10px;
+            margin: 60px;
+            display: inline;
+            overflow: auto;
+            letter-spacing: 2px;
+            width: 100%;
+        }
+        .topnav a:hover {
+            background-color: white;
+            color: black;
+        }
+        .ads{
+            width: 18%;
+            float: right;
+            background-color:  rgb(17, 124, 143);
+            height: 500px;
+            margin-top: 12px;
+            border: 1PX SOLID BLACK;
+        }
+        .box1{
+            width: 82%;
+            margin-top: 12px;
+            background-color: whitesmoke;
+            height: 200px;
+        }
+        .box1 h3 {
+            font-size: 30px;
+        }
+        #a {
+            background-color: black;
+            width: 82%;
+            float: left;
+        }
+        #b {
+            padding: 4px;
+            background-color: white;
+            float: right;
+            border: 2px solid gray;
+            width: 45%;
+            text-align: center;
+            margin: 3px;
+        }
+        #c  {
+            float: left;
+            background-color: white;
+            padding: 4px;
+            border: 2px solid gray;
+            width: 45%;
+            text-align: center;
+            margin: 3px;
+        }
+        #d {
+            float: left;
+            background-color: white;
+            padding: 4px;
+            border: 2px solid gray;
+            width: 45%;
+            text-align: center;
+            clear:both;
+            margin: 3px;
+        }
+        #e {
+            background-color: white;
+            text-align: center;
+            padding: 4px;
+            width: 45%;
+            float: right;
+            margin: 3px;
+            border: 2px solid gray;
+        }
+        #f {
+            width: 82%;
+            float: left;
+            text-align: center;
+            background-color: darkgray;
+        }
+        #g {
+            text-align: center;
+            float: left;
+            width: 82%;
+            background-color: darkgray;
+            padding-bottom: 20px;
+            padding-right: 110px;
+        }
+        #h {
+            width: 100%;
+            float: left;
+            text-align: center;
+            background-color: white;
+        }
+        .button {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        }
+        .button1:hover{
+            background-color: rgb(17, 124, 143) ;
+            color: white;
+            border: 2px solid black;
+        }
+        .footer {
+            width: 122.5%;
+            background-image: url(238.jpg);
+        }
+        .footer h1 {
+            padding-top: 30px;
+        }
+        .footer a {
+            padding: 20px;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+          }
+          
+          .fa:hover {
+              opacity: 0.7;
+          }
+          
+          .fa-facebook {
+            background: #1452da;
+            color: white;
+          }
+          .fa-instagram {
+            background: #d11010;
+            color: white;
+          }
+          .fa-twitter {
+            background: #0a82df;
+            color: white;
+          }
+          
+          

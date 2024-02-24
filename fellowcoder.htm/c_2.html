@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body
+        {
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         background-color:  #f0e7e7;
+        }
+        .header{
+           
+           background-image: url(238.jpg);   
+        }
+        nav{
+            width: 100%;
+            height: 20px;
+            text-align: center;
+        }
+        nav a{
+            
+            float: centre;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 60px;
+            color: rgb(90, 53, 53);    
+        }
+        .header h6{
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            padding: 0;
+            font-style: oblique;
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        span{
+            color: rgb(236, 16, 16);
+        }
+        .example{
+            background-color: rgb(211, 209, 209);
+            color:  rgb(58, 20, 148);
+        }
+        .example span{
+            color: rgb(255, 0, 212) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href=""><button>search</button></a>
+        </nav>
+        <hr>
+        <h6>Fellow Coder - C Tuturial</h6>
+    </div>
+    <h1 style="text-align: center; font-style: oblique; "><u>PRINTF & SCANF</u></h1>
+    <h2>1). <u>printf () :-</u></h2>
+    <p>The printf() functon is used to print output on the screen.It is an formatted output function.Its defintion is written in the header file <span>stdio.h</span>.</p>
+    <p>The printf () function is used to print the character ,string,floating point,integer,octal and hexadecimal values onto the output screen. It is used with formatted character as <span>%d,%c,%s</span> etc.</p>
+    <h2><u>EXAMPLE of printf () :-</u></h2>
+    <div class="example">
+        <p>#include &lt;stdio.h&gt;</p>
+        <p>void main()</p>
+        <p>{</p>
+        <p><span>printf("My name is fellow coder.");</span></p>
+        <p>}</p>
+    </div>
+    <h2>2). <u>scanf () :- </u></h2>
+    <p>The scanf () function is used to take or read <span>input</span> from the keyboard and writes the result into the arguments given.</p>
+    <p>It is a formetted function,which is defined in header file named <span>stdio.h</span>.</p>
+    <p><span>& (ampersand)</span>operator is used to take input.</p>
+    <h2><u>EXAMPLE of scanf () :-</u></h2>
+    <div class="example">
+        <p>#include &lt;stdio.h&gt;</p>
+        <p>void main()</p>
+        <p>{</p>
+        <p>int a;</p>
+        <p>printf("Enter a number");</p>
+        <p><span>scanf("%d",&a);</span></p>
+        <p>printf("Value of a is %d",a);</p>
+        <p>}</p>
+    </div>
+    <div class="buttonright">
+        <button style="margin-left: 1250px;"><a href="c_3.html" target="_blank">Next</a></button>
+    </div>
+    <div class="footer">
+        <h1>www.fellowcoder.com</h1>
+        <hr>
+        <h2>All copyrite reserved by PUSHPENSRA SINGH</h2>
+        <hr>
+        <h3>Follow us on social plateforms </h3><br>
+        <a href="https://m.facebook.com/profile.php?id=100032764934942"  target="_blanck" class="fa fa-facebook"></a>
+        <a href="https://mobile.twitter.com/HarshitHayaran"  target="_blanck" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/soham_hayaran/" target="_blanck" class="fa fa-instagram"></a>
+    </div>
+</body>
+</html>
